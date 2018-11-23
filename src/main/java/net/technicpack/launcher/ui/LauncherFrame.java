@@ -405,7 +405,7 @@ public class LauncherFrame extends DraggableFrame implements IRelocalizableResou
         headerLabel.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                DesktopUtils.browseUrl("https://www.technicpack.net/");
+                DesktopUtils.browseUrl("https://mchub.hectorsky.net/");
             }
         });
         header.add(headerLabel);
@@ -633,7 +633,7 @@ public class LauncherFrame extends DraggableFrame implements IRelocalizableResou
         buildCtrl.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                DesktopUtils.browseUrl("https://apexminecrafthosting.com/partners/technic");
+                DesktopUtils.browseUrl("https://hectorsky.net/");
             }
         });
         footer.add(buildCtrl);

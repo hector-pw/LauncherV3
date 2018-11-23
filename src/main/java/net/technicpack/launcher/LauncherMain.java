@@ -120,17 +120,7 @@ public class LauncherMain {
 
     public static final Locale[] supportedLanguages = new Locale[] {
             Locale.ENGLISH,
-            new Locale("pt","BR"),
-            new Locale("pt","PT"),
-            new Locale("cs"),
-            Locale.GERMAN,
-            Locale.FRENCH,
-            Locale.ITALIAN,
-            new Locale("hu"),
-            new Locale("pl"),
-            Locale.CHINA,
-            Locale.TAIWAN,
-            new Locale("nl", "NL")
+            new Locale("pl")
     };
 
     private static IBuildNumber buildNumber;
@@ -191,7 +181,7 @@ public class LauncherMain {
             //This is probably a debug build or something, build number is invalid
         }
 
-        Relauncher launcher = new TechnicRelauncher(new HttpUpdateStream("https://mchub.hectorsky.net/api/launcher/version"), settings.getBuildStream()+"4", build, directories, resources, params);
+        Relauncher launcher = new TechnicRelauncher(new HttpUpdateStream("https://mchub.hectorsky.net/api/launcher/"), settings.getBuildStream()+"4", build, directories, resources, params);
 
         try {
             if (launcher.runAutoUpdater())
