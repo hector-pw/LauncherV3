@@ -202,7 +202,7 @@ public class LauncherMain {
         if (!logDirectory.exists()) {
             logDirectory.mkdir();
         }
-        File logs = new File(logDirectory, "mchublauncher_%D.log");
+        File logs = new File(logDirectory, "craftnetwork_%D.log");
         RotatingFileHandler fileHandler = new RotatingFileHandler(logs.getPath());
 
         fileHandler.setFormatter(new BuildLogFormatter(buildNumber.getBuildNumber()));
@@ -319,7 +319,7 @@ public class LauncherMain {
         IModpackResourceType logoType = new LogoResourceType();
         IModpackResourceType backgroundType = new BackgroundResourceType();
 
-        PackResourceMapper iconMapper = new PackResourceMapper(directories, resources.getImage("icon.png"), iconType);
+        PackResourceMapper iconMapper = new PackResourceMapper(directories, resources.getImage("modpack/icon.png"), iconType);
         ImageRepository<ModpackModel> iconRepo = new ImageRepository<ModpackModel>(iconMapper, new PackImageStore(iconType, mirrorStore, userModel));
         ImageRepository<ModpackModel> logoRepo = new ImageRepository<ModpackModel>(new PackResourceMapper(directories, resources.getImage("modpack/ModImageFiller.png"), logoType), new PackImageStore(logoType, mirrorStore, userModel));
         ImageRepository<ModpackModel> backgroundRepo = new ImageRepository<ModpackModel>(new PackResourceMapper(directories, null, backgroundType), new PackImageStore(backgroundType, mirrorStore, userModel));

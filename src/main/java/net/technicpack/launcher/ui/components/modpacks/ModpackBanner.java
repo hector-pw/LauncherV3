@@ -135,7 +135,7 @@ public class ModpackBanner extends JPanel implements IImageJobListener<ModpackMo
         this.add(Box.createRigidArea(new Dimension(20, 10)));
 
         modpackIcon = new JLabel();
-        modpackIcon.setIcon(resources.getIcon("icon.png"));
+        modpackIcon.setIcon(resources.getIcon("modpack/icon.png"));
         this.add(modpackIcon);
 
         JPanel modpackNamePanel = new JPanel();
