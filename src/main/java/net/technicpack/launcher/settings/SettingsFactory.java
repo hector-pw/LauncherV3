@@ -56,7 +56,7 @@ public class SettingsFactory {
             return portableSettings;
         }
 
-        File installedSettingsDir = OperatingSystem.getOperatingSystem().getUserDirectoryForApp("mchub");
+        File installedSettingsDir = OperatingSystem.getOperatingSystem().getUserDirectoryForApp("craftNetwork");
 
         TechnicSettings settings = tryGetSettings(installedSettingsDir);
 
@@ -107,6 +107,6 @@ public class SettingsFactory {
         if (isMover)
             return runningFolder;
         else
-            return new File(runningFolder,"mchub");
+            return new File(runningFolder,"craftNetwork");
     }
 }

@@ -76,7 +76,7 @@ public class DiscoverInfoPanel extends TiledBackground {
         this.resources = loader;
 
         if (discoverUrl == null)
-            discoverUrl = "https://mchub.hectorsky.net/api/discover/";
+            discoverUrl = "https://craftnetwork.eu.org/api/discover/";
 
         final String runnableAccessDiscover = discoverUrl;
 
