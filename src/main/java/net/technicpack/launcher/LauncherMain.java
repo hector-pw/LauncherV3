@@ -313,7 +313,7 @@ public class LauncherMain {
         UserModel userModel = new UserModel(users, new AuthenticationService());
 
         MirrorStore mirrorStore = new MirrorStore(userModel);
-        mirrorStore.addSecureMirror("mirror.technicpack.net", new JsonWebSecureMirror("http://mirror.technicpack.net/", "mirror.technicpack.net"));
+        mirrorStore.addSecureMirror("launcher.craftnetwork.eu.org", new JsonWebSecureMirror("https://launcher.craftnetwork.eu.org/mirror/", "launcher.craftnetwork.eu.org"));
 
         IModpackResourceType iconType = new IconResourceType();
         IModpackResourceType logoType = new LogoResourceType();
