@@ -84,8 +84,8 @@ public class LauncherFrame extends DraggableFrame implements IRelocalizableResou
 
     public static final Color COLOR_RED = new Color(229,0,0);
     public static final Color COLOR_GREEN = new Color(16, 108, 163);
-    public static final Color COLOR_BLUE = new Color(49,54,111);
-    public static final Color COLOR_BLUE_DARKER = new Color(40,44,102);
+    public static final Color COLOR_BLUE = new Color(73,75,140);
+    public static final Color COLOR_BLUE_DARKER = new Color(67,70,126);
     public static final Color COLOR_WHITE_TEXT = new Color(208,208,208);
     public static final Color COLOR_DIM_TEXT = new Color(160,160,160);
     public static final Color COLOR_HEADER_TEXT = new Color(255,255,255);
@@ -101,7 +101,7 @@ public class LauncherFrame extends DraggableFrame implements IRelocalizableResou
     public static final Color COLOR_CENTRAL_BACK_OPAQUE = new Color(25, 30, 34);
     public static final Color COLOR_FEEDITEM_BACK = new Color(37, 44, 49);
     public static final Color COLOR_LIKES_BACK = new Color(20, 65, 97);
-    public static final Color COLOR_BUTTON_BLUE = new Color(49,54,111);
+    public static final Color COLOR_BUTTON_BLUE = new Color(73,75,140);
     public static final Color COLOR_FORMELEMENT_INTERNAL = new Color(30, 39, 46);
     public static final Color COLOR_GREY_TEXT = new Color(86, 98, 110);
     public static final Color COLOR_FOOTER = new Color(27, 32, 36);
